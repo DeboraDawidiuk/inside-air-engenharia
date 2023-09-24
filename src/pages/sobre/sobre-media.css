@@ -1,4 +1,9 @@
 @media (min-width:320px) and (max-width: 575px){
+    
+    html {
+        overflow-x:hidden;
+    }
+
     .about-us-1 {
         background-position: center;
         height: 200px;
@@ -152,6 +157,10 @@
 
 
 @media (min-width: 576px) and (max-width: 766px) {
+    html {
+        overflow-x:hidden;
+    }
+
     .about-us-1 {
         height: 250px;
     }
@@ -294,7 +303,11 @@
 }
 
 
-@media (min-width: 767px) and (max-width: 909px) {
+@media (min-width: 767px)  {
+    html {
+        overflow-x:hidden;
+    }
+
     .element-1 {
         padding: 10px;
         width: 240px;
@@ -364,6 +377,10 @@
 }
 
 @media (min-width: 910px) {
+    html {
+        overflow-x:hidden;
+    }
+
     .about-us-1 {
         background-position: center;
         height: 300px;
