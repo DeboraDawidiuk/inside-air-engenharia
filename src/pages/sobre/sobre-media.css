@@ -1,12 +1,12 @@
-@media (max-width:400px) {
+@media (min-width:320px) and (max-width: 575px){
     .about-us-1 {
-        background-size: cover;
-        height: 100px;
+        background-position: center;
+        height: 200px;
     }
 
     .about-us-h2 {
         font-size: 20px;
-        padding: 10px 10px;
+        padding: 80px 10px;
     }
 
     .about-us-container {
@@ -151,7 +151,7 @@
 }
 
 
-@media (min-width: 401px) and (max-width: 844px) {
+@media (min-width: 576px) and (max-width: 766px) {
     .about-us-1 {
         height: 250px;
     }
@@ -171,10 +171,10 @@
     }
 
     .about-us-text {
-        width: 400px;
-        margin-left: 0px;
+        width: 600px;
+        margin-left: 300px;
         margin-bottom: 0px;
-        padding-top: 100px;
+        padding-top: 10px;
     }
 
     .about-us-image {
@@ -183,9 +183,10 @@
 
 
     .about-us-image img {
-        width: 100px;
+        /* width: 100px;
         border-radius: 30px;
-        box-shadow: -30px 2px 50px rgba(0, 0, 0, 0.493);
+        box-shadow: -30px 2px 50px rgba(0, 0, 0, 0.493); */
+        display: none;
     }
 
     .about-img1 {
@@ -226,14 +227,14 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
+        width: 100vw;
         background-attachment: fixed;
     }
 
     .element-1 {
         padding: 10px;
-        width: 250px;
-        height: 300px;
+        width: 200px;
+        height: 260px;
     }
 
     .element-grid {
@@ -241,7 +242,7 @@
     }
 
     .about-container-grid {
-        padding: 100px 50px;
+        padding: 100px 25px;
     }
 
     .about-border-icon {
@@ -250,7 +251,7 @@
     }
 
     .element-inside-1 {
-        width: 250px;
+        width: 205px;
         padding: 0 5px;
         height: auto;
     }
@@ -265,6 +266,7 @@
     }
 
     .history {
+        width: 100vw;
         padding: 80px 50px;
         column-gap: 2px;
         background-position: center;
@@ -283,11 +285,16 @@
     .p2 {
         margin-top: -20px;
     }
+
+    .hr-about {
+        margin-left: 240px;
+        padding-bottom: 100px;
+    }
     
 }
 
 
-@media (min-width: 768px) and (max-width: 843px) {
+@media (min-width: 767px) and (max-width: 991px) {
     .element-1 {
         padding: 10px;
         width: 240px;
@@ -307,7 +314,7 @@
 
 }
 
-@media (min-width: 1024px) and (max-width: 1369px) {
+@media (min-width: 992px) and (max-width: 1369px) {
     .about-us-1 {
         background-position: center;
         height: 300px;
